@@ -1,0 +1,160 @@
+##### 1 #####
+
+.cont {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+}
+
+##### 2 #####
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: orange;
+  margin: 10px;
+  margin-left: 0;
+  margin-top: 0;
+  width: 50px;
+  height: 50px;
+}
+
+##### 3 #####
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: orange;
+  margin: 10px;
+  margin-left: 0;
+  margin-top: 0;
+  width: 50px;
+  height: 50px;
+}
+
+##### 4 #####
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: orange;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+##### 5 #####
+
+.cont {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: orange;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+/*
+I'm add a html class to all the boxes, I'm use "squareOne"
+*/
+
+.squareOne {
+  align-self: flex-end;
+}
+
+##### 6 #####
+
+.cont {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: orange;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+/*
+I'm add a html class to all the boxes, I'm use "squareOne"
+*/
+
+.squareOne {
+  align-self: flex-end;
+}
+
+##### 7 #####
+
+.cont {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: orange;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+##### 8 #####
+
+.cont {
+  display: flex;
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.box {
+  flex-grow: 1;
+  background-color: orange;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
